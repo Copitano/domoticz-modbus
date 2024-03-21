@@ -82,3 +82,5 @@ Install with: ```sudo pip3 install -U pymodbus pymodbusTCP```
 * [Relay board](http://domoticx.com/modbus-relaisbord/)
 * [KWh Meter - EASTRON SDM120](http://domoticx.com/modbus-kwh-meter-eastron-sdm120/)
 * [Temp/Hum sensor - XY-MD01 or XY-MD02](http://domoticx.com/modbus-temp-hum-sensor-xy-md02/)
+
+For Domoticz version 2023 and higher you need to change pymodbus.client.sync to pymodbus.client.serial for serial and to pymodbus.client.tcp for TCP in all three modules.
